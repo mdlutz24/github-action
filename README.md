@@ -1640,7 +1640,7 @@ To collect more verbose GitHub Action logs you can set a GitHub secret or variab
 
 ### Logs from the test runner
 
-To see all [Cypress debug logs](http://on.cypress.io/troubleshooting#Print-DEBUG-logs), add the environment variable `DEBUG` to the workflow using the value `cypress:*`:
+To see all [Cypress debug logs](https://docs.cypress.io/app/references/troubleshooting#Print-DEBUG-logs), add the environment variable `DEBUG` to the workflow using the value `cypress:*`:
 
 ```yml
 - name: Cypress tests with debug logs
@@ -1649,7 +1649,7 @@ To see all [Cypress debug logs](http://on.cypress.io/troubleshooting#Print-DEBUG
     DEBUG: 'cypress:*'
 ```
 
-Replace the value `cypress:*` with specific [Cypress log sources](https://on.cypress.io/troubleshooting#Log-sources) to filter debug log output.
+Replace the value `cypress:*` with specific [Cypress log sources](https://docs.cypress.io/app/references/troubleshooting#Log-sources) to filter debug log output.
 
 ### Debugging waiting for URL to respond
 
